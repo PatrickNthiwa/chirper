@@ -4,7 +4,7 @@ namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
 use App\Models\Chirp;
-use Illuminate\Support\Faca
+use Illuminate\Support\Facades\Str;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
