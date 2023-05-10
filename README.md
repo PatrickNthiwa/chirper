@@ -11,4 +11,4 @@
 
 .In the context of social media, a chirp is a short message or post on a platform, similar to a tweet on Twitter or a status update on Facebook. The term "chirp" may be used specifically to refer to posts on certain platforms, such as Chirper, which may have features and limitations that distinguish them from other social media posts
 
-!alt[https://user-images.githubusercontent.com/102645955/237401279-f580691c-ee69-41f5-975e-d51c2ef5bc84.png]
+[!alt text](https://user-images.githubusercontent.com/102645955/237401279-f580691c-ee69-41f5-975e-d51c2ef5bc84.png)
