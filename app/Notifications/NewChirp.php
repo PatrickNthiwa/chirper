@@ -14,7 +14,7 @@ class NewChirp extends Notification
     /**
      * Create a new notification instance.
      */
-    public function __construct(pub)
+    public function __construct(public Chirp $chi)
     {
         //
     }
