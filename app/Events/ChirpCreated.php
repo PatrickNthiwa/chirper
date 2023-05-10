@@ -17,7 +17,7 @@ class ChirpCreated
     /**
      * Create a new event instance.
      */
-    public function __construct(public)
+    public function __construct(public Chirp )
     {
         //
     }
