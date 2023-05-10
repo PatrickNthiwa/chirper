@@ -33,6 +33,6 @@ require __DIR__.'/auth.php';
 
 
 Route::resource('chirps',ChirpController::class)
-        ->only('index','store','edit','update','destr')
+        ->only('index','store','edit','update','destroy')
         ->middleware('auth','verified');
 

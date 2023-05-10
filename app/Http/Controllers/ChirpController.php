@@ -81,6 +81,8 @@ class ChirpController extends Controller
      */
     public function destroy(chirp $chirp)
     {
-        //
+    $this->authorize('delete',$chirp);
+
+    $chirp->delete();
     }
 }
