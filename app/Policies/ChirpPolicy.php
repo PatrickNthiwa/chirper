@@ -35,9 +35,9 @@ class ChirpPolicy
     /**
      * Determine whether the user can update the model.
      */
-    public function update(User $user, Chirp $chirp): bool
+    public function update(User $user, Chirp $chirp)
     {
-        return $chirp->user()->is($user)
+        return $chirp->user()->is($user);
     }
 
     /**
