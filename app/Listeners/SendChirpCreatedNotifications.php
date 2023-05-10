@@ -3,7 +3,7 @@
 namespace App\Listeners;
 
 use App\Models\User;
-use App\no
+use App\Notifications\NewChirp;
 use App\Events\ChirpCreated;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
