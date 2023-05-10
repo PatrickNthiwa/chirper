@@ -37,7 +37,7 @@ class ChirpPolicy
      */
     public function update(User $user, Chirp $chirp): bool
     {
-        return $hirp
+        return $chirp->user
     }
 
     /**
