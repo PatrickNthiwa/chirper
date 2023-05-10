@@ -2,7 +2,7 @@
 
 namespace App\Listeners;
 
-use App\Models\
+use App\Models\usr
 use App\Events\ChirpCreated;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
