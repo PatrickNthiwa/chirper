@@ -53,7 +53,11 @@ class ChirpController extends Controller
      */
     public function edit(chirp $chirp)
     {
-        //
+        $this->authorize('update',$chirp);
+
+        return view('chirps.edit',[
+            'chirp'=>$chirp,
+        ]);
     }
 
     /**
@@ -61,7 +65,15 @@ class ChirpController extends Controller
      */
     public function update(Request $request, chirp $chirp)
     {
-        //
+        $this->authorize('update',$chirp);
+
+        $validated= $request->validate([
+            'messsage'=> 'required|string|max:255',
+        ]);
+
+       $chirp-> update($validated);
+
+       return redirect(route('chirps.index'));
     }
 
     /**
